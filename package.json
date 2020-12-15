@@ -1,0 +1,22 @@
+{
+  "name": "Copernicus",
+  "version": "0.0.1",
+  "description": "Catalogue des services et données du programme Copernicus",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/Copernicus",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.7.1",
+    "@vuepress/plugin-medium-zoom": "^1.7.1",
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-element-tabs": "^0.2.8"
+  }
+}
